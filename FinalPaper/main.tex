@@ -1,0 +1,61 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{tocloft}    %necessario per inserire i puntini nell'indice
+\usepackage{url}    %necessario per i collegamenti ipertestuali
+\usepackage[nottoc]{tocbibind}  %necessarrio per far apparire la bibliografia nell'indice
+\usepackage{verbatim} %serve per commentare più righe contemporaneamente
+
+
+\title{FinalPaper}
+\author{Alessandro Castelli}
+\date{\today}
+
+\begin{document}    %inizio documento
+
+\maketitle  %Creo il titolo
+\thispagestyle{empty}   %Non metto il numero di pagina nel frontespizio
+\pagebreak  %Inserisco interruzione
+
+\cftsetpnumwidth{0.5cm} %distanza puntini da numero
+\renewcommand{\cftsecdotsep}{4} %densita di puntini
+\tableofcontents    %Inserisco indice
+
+
+\setcounter{page}{1}    %Inizio a contare da 1
+\newpage    %Altra pagina
+
+\section{Introduction}  %Creo la sezione Introduzione
+Since the second half of the 1990s, humanity has started questioning the concept of artificial intelligence. In the subsequent years, significant progress has been made in this field, thanks to numerous discoveries. One of the most renowned artificial intelligence systems is ChatGPT, a software designed to simulate conversations with human beings. It operates based on GPT-3, a natural language processing model developed by OpenAI. With its 175 billion parameters, it stands as one of the most versatile models in its category.
+
+\begin{comment}
+Fin dalla seconda metà degli anni 90 del secolo precedente l'umanità ha inziato ad interrogarsi sul concetto di intelligenza artificiale.Negli anni seguenti grazie alle innumerevoli scoperte in quel campo sono stati fatti grandi progressi.\\Uno dei sistemi di intelligenza artificale più famosi è ChatGPT, un software progettato per simulare una conversazione con un essere umano. Il suo funzionamento si basa su GPT-3, un modello di elaborazione del linguaggio naturale sviluppato da OpenAI. I suoi 175 miliardi di parametri lo rendono uno dei modelli più versatili della categoria.
+\end{comment}
+
+\subsection{What you will find}
+In the following essay, you will initially find an introduction on how technology, throughout the centuries, has been gradually introduced into educational environments. Subsequently, I will focus on how artificial intelligence systems have started to play a central role in the field of education. Finally, I will attempt to analyze the positive and negative aspects of using these systems in the education of young students.
+
+\begin{comment}
+Nel seguente elaborato troverai inizialmente un'introduzione su come la tecnologia, attraverso i secoli, sia stata gradualmente introdotta negli ambienti educativi, successivamente mi concentrerò su come i sistemi di intelligenza artificiale hanno iniziato ad avere un ruolo centrale in ambito educazionale ed infine  cercherò di analizzare i lati positivi e negativi dell'uso di questi sistemi nell'educazione dei giovani ragazzi.
+\end{comment}
+
+\section{Technology and Education through the centuries}
+
+\section{AI systems used in educational contexts}
+Artificial intelligence systems are widely used in educational settings in many different ways. Thanks to these systems, it is possible to assist both teachers and students.
+
+
+\begin{comment}
+    I sistemi di Intellgenza artificiale sono molto usati in ambito scolastico in molti modi diversi. Grazie a questi sistemi è possibile aiutare sia i docenti che gli student
+\end{comment}
+
+
+\newpage    %bibliografia
+\bibliographystyle{plainnat}    %bibliografia
+\bibliography{Bibliography.bib} %bibliografia
+
+
+\end{document}  %Fine documento
